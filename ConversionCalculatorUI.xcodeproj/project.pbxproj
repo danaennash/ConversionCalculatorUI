@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27D43911225FCB900008A543 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D43910225FCB900008A543 /* AppDelegate.swift */; };
+		27D43916225FCB900008A543 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27D43914225FCB900008A543 /* Main.storyboard */; };
+		27D43919225FCB900008A543 /* ConversionCalculatorUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27D43917225FCB900008A543 /* ConversionCalculatorUI.xcdatamodeld */; };
+		27D4391B225FCB910008A543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27D4391A225FCB910008A543 /* Assets.xcassets */; };
+		27D4391E225FCB910008A543 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27D4391C225FCB910008A543 /* LaunchScreen.storyboard */; };
+		27D43929225FCB920008A543 /* ConversionCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D43928225FCB920008A543 /* ConversionCalculatorUITests.swift */; };
+		27D43934225FCB920008A543 /* ConversionCalculatorUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D43933225FCB920008A543 /* ConversionCalculatorUIUITests.swift */; };
+		27D43942225FCC960008A543 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D43941225FCC960008A543 /* Converter.swift */; };
+		27D43944225FCCD20008A543 /* ConverterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D43943225FCCD20008A543 /* ConverterViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27D43925225FCB920008A543 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27D43905225FCB900008A543 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27D4390C225FCB900008A543;
+			remoteInfo = ConversionCalculatorUI;
+		};
+		27D43930225FCB920008A543 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27D43905225FCB900008A543 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27D4390C225FCB900008A543;
+			remoteInfo = ConversionCalculatorUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27D4390D225FCB900008A543 /* ConversionCalculatorUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConversionCalculatorUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27D43910225FCB900008A543 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27D43915225FCB900008A543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27D43918225FCB900008A543 /* ConversionCalculatorUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ConversionCalculatorUI.xcdatamodel; sourceTree = "<group>"; };
+		27D4391A225FCB910008A543 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27D4391D225FCB910008A543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27D4391F225FCB910008A543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27D43924225FCB920008A543 /* ConversionCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConversionCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27D43928225FCB920008A543 /* ConversionCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionCalculatorUITests.swift; sourceTree = "<group>"; };
+		27D4392A225FCB920008A543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27D4392F225FCB920008A543 /* ConversionCalculatorUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConversionCalculatorUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27D43933225FCB920008A543 /* ConversionCalculatorUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionCalculatorUIUITests.swift; sourceTree = "<group>"; };
+		27D43935225FCB920008A543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27D43941225FCC960008A543 /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
+		27D43943225FCCD20008A543 /* ConverterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27D4390A225FCB900008A543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27D43921225FCB920008A543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27D4392C225FCB920008A543 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27D43904225FCB900008A543 = {
+			isa = PBXGroup;
+			children = (
+				27D4390F225FCB900008A543 /* ConversionCalculatorUI */,
+				27D43927225FCB920008A543 /* ConversionCalculatorUITests */,
+				27D43932225FCB920008A543 /* ConversionCalculatorUIUITests */,
+				27D4390E225FCB900008A543 /* Products */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		27D4390E225FCB900008A543 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27D4390D225FCB900008A543 /* ConversionCalculatorUI.app */,
+				27D43924225FCB920008A543 /* ConversionCalculatorUITests.xctest */,
+				27D4392F225FCB920008A543 /* ConversionCalculatorUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27D4390F225FCB900008A543 /* ConversionCalculatorUI */ = {
+			isa = PBXGroup;
+			children = (
+				27D43910225FCB900008A543 /* AppDelegate.swift */,
+				27D43914225FCB900008A543 /* Main.storyboard */,
+				27D4391A225FCB910008A543 /* Assets.xcassets */,
+				27D4391C225FCB910008A543 /* LaunchScreen.storyboard */,
+				27D4391F225FCB910008A543 /* Info.plist */,
+				27D43917225FCB900008A543 /* ConversionCalculatorUI.xcdatamodeld */,
+				27D43941225FCC960008A543 /* Converter.swift */,
+				27D43943225FCCD20008A543 /* ConverterViewController.swift */,
+			);
+			path = ConversionCalculatorUI;
+			sourceTree = "<group>";
+		};
+		27D43927225FCB920008A543 /* ConversionCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27D43928225FCB920008A543 /* ConversionCalculatorUITests.swift */,
+				27D4392A225FCB920008A543 /* Info.plist */,
+			);
+			path = ConversionCalculatorUITests;
+			sourceTree = "<group>";
+		};
+		27D43932225FCB920008A543 /* ConversionCalculatorUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27D43933225FCB920008A543 /* ConversionCalculatorUIUITests.swift */,
+				27D43935225FCB920008A543 /* Info.plist */,
+			);
+			path = ConversionCalculatorUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27D4390C225FCB900008A543 /* ConversionCalculatorUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27D43938225FCB920008A543 /* Build configuration list for PBXNativeTarget "ConversionCalculatorUI" */;
+			buildPhases = (
+				27D43909225FCB900008A543 /* Sources */,
+				27D4390A225FCB900008A543 /* Frameworks */,
+				27D4390B225FCB900008A543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConversionCalculatorUI;
+			productName = ConversionCalculatorUI;
+			productReference = 27D4390D225FCB900008A543 /* ConversionCalculatorUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27D43923225FCB920008A543 /* ConversionCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27D4393B225FCB920008A543 /* Build configuration list for PBXNativeTarget "ConversionCalculatorUITests" */;
+			buildPhases = (
+				27D43920225FCB920008A543 /* Sources */,
+				27D43921225FCB920008A543 /* Frameworks */,
+				27D43922225FCB920008A543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27D43926225FCB920008A543 /* PBXTargetDependency */,
+			);
+			name = ConversionCalculatorUITests;
+			productName = ConversionCalculatorUITests;
+			productReference = 27D43924225FCB920008A543 /* ConversionCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27D4392E225FCB920008A543 /* ConversionCalculatorUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27D4393E225FCB920008A543 /* Build configuration list for PBXNativeTarget "ConversionCalculatorUIUITests" */;
+			buildPhases = (
+				27D4392B225FCB920008A543 /* Sources */,
+				27D4392C225FCB920008A543 /* Frameworks */,
+				27D4392D225FCB920008A543 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27D43931225FCB920008A543 /* PBXTargetDependency */,
+			);
+			name = ConversionCalculatorUIUITests;
+			productName = ConversionCalculatorUIUITests;
+			productReference = 27D4392F225FCB920008A543 /* ConversionCalculatorUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27D43905225FCB900008A543 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Danae N Nash";
+				TargetAttributes = {
+					27D4390C225FCB900008A543 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					27D43923225FCB920008A543 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 27D4390C225FCB900008A543;
+					};
+					27D4392E225FCB920008A543 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 27D4390C225FCB900008A543;
+					};
+				};
+			};
+			buildConfigurationList = 27D43908225FCB900008A543 /* Build configuration list for PBXProject "ConversionCalculatorUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27D43904225FCB900008A543;
+			productRefGroup = 27D4390E225FCB900008A543 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27D4390C225FCB900008A543 /* ConversionCalculatorUI */,
+				27D43923225FCB920008A543 /* ConversionCalculatorUITests */,
+				27D4392E225FCB920008A543 /* ConversionCalculatorUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27D4390B225FCB900008A543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D4391E225FCB910008A543 /* LaunchScreen.storyboard in Resources */,
+				27D4391B225FCB910008A543 /* Assets.xcassets in Resources */,
+				27D43916225FCB900008A543 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27D43922225FCB920008A543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27D4392D225FCB920008A543 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27D43909225FCB900008A543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D43919225FCB900008A543 /* ConversionCalculatorUI.xcdatamodeld in Sources */,
+				27D43942225FCC960008A543 /* Converter.swift in Sources */,
+				27D43911225FCB900008A543 /* AppDelegate.swift in Sources */,
+				27D43944225FCCD20008A543 /* ConverterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27D43920225FCB920008A543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D43929225FCB920008A543 /* ConversionCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27D4392B225FCB920008A543 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D43934225FCB920008A543 /* ConversionCalculatorUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27D43926225FCB920008A543 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27D4390C225FCB900008A543 /* ConversionCalculatorUI */;
+			targetProxy = 27D43925225FCB920008A543 /* PBXContainerItemProxy */;
+		};
+		27D43931225FCB920008A543 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27D4390C225FCB900008A543 /* ConversionCalculatorUI */;
+			targetProxy = 27D43930225FCB920008A543 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27D43914225FCB900008A543 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27D43915225FCB900008A543 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27D4391C225FCB910008A543 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27D4391D225FCB910008A543 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27D43936225FCB920008A543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27D43937225FCB920008A543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27D43939225FCB920008A543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ConversionCalculatorUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27D4393A225FCB920008A543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ConversionCalculatorUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		27D4393C225FCB920008A543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28C4HPVNWU;
+				INFOPLIST_FILE = ConversionCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Zach-Swartz.ConversionCalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConversionCalculatorUI.app/ConversionCalculatorUI";
+			};
+			name = Debug;
+		};
+		27D4393D225FCB920008A543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28C4HPVNWU;
+				INFOPLIST_FILE = ConversionCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Zach-Swartz.ConversionCalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConversionCalculatorUI.app/ConversionCalculatorUI";
+			};
+			name = Release;
+		};
+		27D4393F225FCB920008A543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28C4HPVNWU;
+				INFOPLIST_FILE = ConversionCalculatorUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Zach-Swartz.ConversionCalculatorUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConversionCalculatorUI;
+			};
+			name = Debug;
+		};
+		27D43940225FCB920008A543 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28C4HPVNWU;
+				INFOPLIST_FILE = ConversionCalculatorUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Zach-Swartz.ConversionCalculatorUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConversionCalculatorUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27D43908225FCB900008A543 /* Build configuration list for PBXProject "ConversionCalculatorUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27D43936225FCB920008A543 /* Debug */,
+				27D43937225FCB920008A543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27D43938225FCB920008A543 /* Build configuration list for PBXNativeTarget "ConversionCalculatorUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27D43939225FCB920008A543 /* Debug */,
+				27D4393A225FCB920008A543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27D4393B225FCB920008A543 /* Build configuration list for PBXNativeTarget "ConversionCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27D4393C225FCB920008A543 /* Debug */,
+				27D4393D225FCB920008A543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27D4393E225FCB920008A543 /* Build configuration list for PBXNativeTarget "ConversionCalculatorUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27D4393F225FCB920008A543 /* Debug */,
+				27D43940225FCB920008A543 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		27D43917225FCB900008A543 /* ConversionCalculatorUI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				27D43918225FCB900008A543 /* ConversionCalculatorUI.xcdatamodel */,
+			);
+			currentVersion = 27D43918225FCB900008A543 /* ConversionCalculatorUI.xcdatamodel */;
+			path = ConversionCalculatorUI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 27D43905225FCB900008A543 /* Project object */;
+}
